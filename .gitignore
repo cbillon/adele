@@ -1,0 +1,8 @@
+*.cnf
+moodle
+modules
+projects
+save.var
+my.json
+pluglist.json
+test*
