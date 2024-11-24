@@ -1,0 +1,604 @@
+{
+  "id": 763,
+  "name": "Roster",
+  "component": "report_roster",
+  "source": "https://github.com/LafColITS/moodle-report_roster",
+  "doc": null,
+  "bugs": "https://github.com/LafColITS/moodle-report_roster/issues",
+  "discussion": null,
+  "timelastreleased": 1717507202,
+  "versions": [
+    {
+      "id": 3239,
+      "version": "2013052000",
+      "release": "v1.0",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/3239/report_roster_moodle25_2013052000.zip",
+      "downloadmd5": "1796f6f64eff8ce314fe81cbcedceeaa",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": "MOODLE_23_STABLE",
+      "vcstag": "v1.0",
+      "timecreated": 1371734785,
+      "supportedmoodles": [
+        {
+          "version": 2011120500,
+          "release": "2.2"
+        },
+        {
+          "version": 2012062500,
+          "release": "2.3"
+        },
+        {
+          "version": 2012110900,
+          "release": "2.4"
+        },
+        {
+          "version": 2013040500,
+          "release": "2.5"
+        }
+      ]
+    },
+    {
+      "id": 5130,
+      "version": "2014010200",
+      "release": "v1.0",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/5130/report_roster_moodle28_2014010200.zip",
+      "downloadmd5": "87024bc23e559e47d6745d8009374399",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": "MOODLE_26_STABLE",
+      "vcstag": "v1.0-2.6",
+      "timecreated": 1388680619,
+      "supportedmoodles": [
+        {
+          "version": 2013101800,
+          "release": "2.6"
+        },
+        {
+          "version": 2014041100,
+          "release": "2.7"
+        },
+        {
+          "version": 2014101000,
+          "release": "2.8"
+        }
+      ]
+    },
+    {
+      "id": 7626,
+      "version": "2015010600",
+      "release": "v1.1.0",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/7626/report_roster_moodle30_2015010600.zip",
+      "downloadmd5": "2a9141cb0a96ef345920efd93d8cb75a",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": "MOODLE_26_STABLE",
+      "vcstag": "v1.1.0",
+      "timecreated": 1420569982,
+      "supportedmoodles": [
+        {
+          "version": 2013101800,
+          "release": "2.6"
+        },
+        {
+          "version": 2014041100,
+          "release": "2.7"
+        },
+        {
+          "version": 2014101000,
+          "release": "2.8"
+        },
+        {
+          "version": 2015041700,
+          "release": "2.9"
+        },
+        {
+          "version": 2015102300,
+          "release": "3.0"
+        }
+      ]
+    },
+    {
+      "id": 9766,
+      "version": "2015111700",
+      "release": "v1.1.1",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/9766/report_roster_moodle32_2015111700.zip",
+      "downloadmd5": "40bec410ee20bbade57e0ad2b6de72c5",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": "MOODLE_26_STABLE",
+      "vcstag": "v1.1.1",
+      "timecreated": 1447812665,
+      "supportedmoodles": [
+        {
+          "version": 2013101800,
+          "release": "2.6"
+        },
+        {
+          "version": 2014041100,
+          "release": "2.7"
+        },
+        {
+          "version": 2014101000,
+          "release": "2.8"
+        },
+        {
+          "version": 2015041700,
+          "release": "2.9"
+        },
+        {
+          "version": 2015102300,
+          "release": "3.0"
+        },
+        {
+          "version": 2016050400,
+          "release": "3.1"
+        },
+        {
+          "version": 2016110800,
+          "release": "3.2"
+        }
+      ]
+    },
+    {
+      "id": 13700,
+      "version": "2017042400",
+      "release": "v1.1.2",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/13700/report_roster_moodle34_2017042400.zip",
+      "downloadmd5": "aa832051ceab41c345a2c96a1591fe86",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": "MOODLE_33_STABLE",
+      "vcstag": "v1.1.2",
+      "timecreated": 1493062371,
+      "supportedmoodles": [
+        {
+          "version": 2017042100,
+          "release": "3.3"
+        },
+        {
+          "version": 2017102500,
+          "release": "3.4"
+        }
+      ]
+    },
+    {
+      "id": 15757,
+      "version": "2018011000",
+      "release": "v3.3.0",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/15757/report_roster_moodle34_2018011000.zip",
+      "downloadmd5": "bdb893e5ffeee6eb64d78f6e8fda23fe",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": "master",
+      "vcstag": "v3.3.0",
+      "timecreated": 1515640517,
+      "supportedmoodles": [
+        {
+          "version": 2017042100,
+          "release": "3.3"
+        },
+        {
+          "version": 2017102500,
+          "release": "3.4"
+        }
+      ]
+    },
+    {
+      "id": 16676,
+      "version": "2018011001",
+      "release": "v3.3.1",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/16676/report_roster_moodle33_2018011001.zip",
+      "downloadmd5": "1526f44ec05aab5279bf00e541008cc5",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": null,
+      "vcstag": "v3.3.1",
+      "timecreated": 1526216127,
+      "supportedmoodles": [
+        {
+          "version": 2017042100,
+          "release": "3.3"
+        }
+      ]
+    },
+    {
+      "id": 16677,
+      "version": "2018051300",
+      "release": "v3.4.0",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/16677/report_roster_moodle35_2018051300.zip",
+      "downloadmd5": "1497a2785f8daa8cb76dde48d50df281",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": null,
+      "vcstag": "v3.4.0",
+      "timecreated": 1526216204,
+      "supportedmoodles": [
+        {
+          "version": 2017102500,
+          "release": "3.4"
+        },
+        {
+          "version": 2018042500,
+          "release": "3.5"
+        }
+      ]
+    },
+    {
+      "id": 18356,
+      "version": "2018112600",
+      "release": "v3.4.1",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/18356/report_roster_moodle36_2018112600.zip",
+      "downloadmd5": "e9269c645b9fe5bc406d1e9ae2b61fba",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": null,
+      "vcstag": "v3.4.1",
+      "timecreated": 1543334165,
+      "supportedmoodles": [
+        {
+          "version": 2017102500,
+          "release": "3.4"
+        },
+        {
+          "version": 2018042500,
+          "release": "3.5"
+        },
+        {
+          "version": 2018111800,
+          "release": "3.6"
+        }
+      ]
+    },
+    {
+      "id": 19556,
+      "version": "2018112601",
+      "release": "v3.4.2",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/19556/report_roster_moodle37_2018112601.zip",
+      "downloadmd5": "16913e9d6de04bf0b23b6d7cfef4cbae",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": "master",
+      "vcstag": "v3.4.2",
+      "timecreated": 1558191424,
+      "supportedmoodles": [
+        {
+          "version": 2017102500,
+          "release": "3.4"
+        },
+        {
+          "version": 2018042500,
+          "release": "3.5"
+        },
+        {
+          "version": 2018111800,
+          "release": "3.6"
+        },
+        {
+          "version": 2019051100,
+          "release": "3.7"
+        }
+      ]
+    },
+    {
+      "id": 20266,
+      "version": "2019091600",
+      "release": "v3.5.0",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/20266/report_roster_moodle38_2019091600.zip",
+      "downloadmd5": "ea15dec93319d8416a21b16a0ba99678",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": null,
+      "vcstag": "v3.5.0",
+      "timecreated": 1568659927,
+      "supportedmoodles": [
+        {
+          "version": 2018042500,
+          "release": "3.5"
+        },
+        {
+          "version": 2018111800,
+          "release": "3.6"
+        },
+        {
+          "version": 2019051100,
+          "release": "3.7"
+        },
+        {
+          "version": 2019111200,
+          "release": "3.8"
+        }
+      ]
+    },
+    {
+      "id": 20882,
+      "version": "2020011000",
+      "release": "v3.6.0",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/20882/report_roster_moodle38_2020011000.zip",
+      "downloadmd5": "bec188d308d01cde775ee41ffee686b1",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": "master",
+      "vcstag": "v3.6.0",
+      "timecreated": 1578677188,
+      "supportedmoodles": [
+        {
+          "version": 2018111800,
+          "release": "3.6"
+        },
+        {
+          "version": 2019051100,
+          "release": "3.7"
+        },
+        {
+          "version": 2019111200,
+          "release": "3.8"
+        }
+      ]
+    },
+    {
+      "id": 20911,
+      "version": "2020011001",
+      "release": "v3.6.1",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/20911/report_roster_moodle38_2020011001.zip",
+      "downloadmd5": "c7ef6180c4a901daaaf76ac114f51337",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": "master",
+      "vcstag": "v3.6.1",
+      "timecreated": 1579101236,
+      "supportedmoodles": [
+        {
+          "version": 2018111800,
+          "release": "3.6"
+        },
+        {
+          "version": 2019051100,
+          "release": "3.7"
+        },
+        {
+          "version": 2019111200,
+          "release": "3.8"
+        }
+      ]
+    },
+    {
+      "id": 21714,
+      "version": "2020061500",
+      "release": "v3.6.2",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/21714/report_roster_moodle39_2020061500.zip",
+      "downloadmd5": "1a165208e6394d14a6252f73cffad918",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": "master",
+      "vcstag": "v3.6.2",
+      "timecreated": 1592236685,
+      "supportedmoodles": [
+        {
+          "version": 2018111800,
+          "release": "3.6"
+        },
+        {
+          "version": 2019051100,
+          "release": "3.7"
+        },
+        {
+          "version": 2019111200,
+          "release": "3.8"
+        },
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        }
+      ]
+    },
+    {
+      "id": 22065,
+      "version": "2020072200",
+      "release": "v3.6.3",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/22065/report_roster_moodle310_2020072200.zip",
+      "downloadmd5": "643fd131e9ed442644cf20d78d0ad268",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": "main",
+      "vcstag": "v3.6.3",
+      "timecreated": 1595428697,
+      "supportedmoodles": [
+        {
+          "version": 2018111800,
+          "release": "3.6"
+        },
+        {
+          "version": 2019051100,
+          "release": "3.7"
+        },
+        {
+          "version": 2019111200,
+          "release": "3.8"
+        },
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        }
+      ]
+    },
+    {
+      "id": 24226,
+      "version": "2021051900",
+      "release": "v3.11.0",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/24226/report_roster_moodle311_2021051900.zip",
+      "downloadmd5": "76e7a8c2f7788d53525be0de1c321cdf",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": "main",
+      "vcstag": "v3.11.0",
+      "timecreated": 1621431291,
+      "supportedmoodles": [
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        }
+      ]
+    },
+    {
+      "id": 26269,
+      "version": "2022032900",
+      "release": "v4.0.0",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/26269/report_roster_moodle40_2022032900.zip",
+      "downloadmd5": "ed71cd5a1cf685010e98f5b007dee27f",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": null,
+      "vcstag": "v4.0.0",
+      "timecreated": 1648583538,
+      "supportedmoodles": [
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        }
+      ]
+    },
+    {
+      "id": 26427,
+      "version": "2022041200",
+      "release": "v4.0.1",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/26427/report_roster_moodle44_2022041200.zip",
+      "downloadmd5": "b06808e3d576175dd186c703d6033959",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": null,
+      "vcstag": "v4.0.1",
+      "timecreated": 1649791599,
+      "supportedmoodles": [
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        },
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        }
+      ]
+    },
+    {
+      "id": 31887,
+      "version": "2024050100",
+      "release": "v4.1.0",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/31887/report_roster_moodle44_2024050100.zip",
+      "downloadmd5": "70ac744f38ee095eca717f0555e07011",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": "main",
+      "vcstag": "v4.1.0",
+      "timecreated": 1714574302,
+      "supportedmoodles": [
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        },
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        }
+      ]
+    },
+    {
+      "id": 32282,
+      "version": "2024050101",
+      "release": "v4.1.1",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/32282/report_roster_moodle45_2024050101.zip",
+      "downloadmd5": "13d534a75291bf7e1badf75d66fec1d9",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/LafColITS/moodle-report_roster",
+      "vcsbranch": null,
+      "vcstag": "v4.1.1",
+      "timecreated": 1717507202,
+      "supportedmoodles": [
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        },
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        },
+        {
+          "version": 2024100700,
+          "release": "4.5"
+        }
+      ]
+    }
+  ]
+}

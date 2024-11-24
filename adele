@@ -53,8 +53,8 @@ do
   "1"  "Ajout d'un plugin au projet" \
   "2"  "Edition des plugins du projet" \
   "3"  "Mise à jour du cache Moodle" \
-  "4"  "Mise à jour du cache du depot local des plugins" \
-  "5"  "Mise à jour base de la base de code du projet" \
+  "4"  "Mise à jour du cache dépot local des plugins" \
+  "5"  "Mise à jour de la base de code du projet" \
   "6"  "Génèration d'une nouvelle version du projet"  \
   "7"  "Deploiement release" \
   "8"  "Help" \
