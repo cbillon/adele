@@ -84,7 +84,7 @@ do
     echo "Vous avez annulé... :-("
     sortie=1
   fi
- # echo "Valeur de sortie: ${sortie}"
+  echo "Valeur de sortie: ${sortie}"
   echo -e "Press any key \n"
   read -rn 1 c
 done

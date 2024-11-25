@@ -1,40 +1,49 @@
-# Outil d'administration pour déployer les plugins de Moodle avec git (sans utiliser les sub modules)#
+## Adele : Administration Environnement E Learning
 
 
 ## Objectif
 
-L'outil est destiné aux Administrateurs Moodle : il permet d'installer une liste de plugins avec git sans utiliser les sub modules. 
-Vous décrivez l'état souhaité de votre projet dans un fichier unique de configuration au format yaml: 
+Outil d'administration pour déployer les plugins de Moodle avec git (sans utiliser les sub modules). 
+L'utilisation de git pour gerer les sources de Moodle et des plugins permet de conserver un historique des mises à jour.
+Un fichier de configuration décrit l'état souhaité de votre projet: 
 
 ```bash
   moodle:
-  version: 4.4+
+    version: 4.4+
 
   plugins:
     moodle-report_benchmark:
-      repo: github
-      owner: mikasmart
-      branch: master   
-
+      source: https://github.com/mikasmart/moodle-report_benchmark
+      branch: master  
     moodle-filter_filtercodes:
-    repo: github
-    owner: michael-milette
-    branch: master
-    version: v2.6.1
+      source: https://github.com/michael-milette/moodle-filter_filtercodes
+      branch: master
+      version: v2.6.1
 ```    
-L'outil construira une base de code conforme à l'état demandé
-En cas de modifications (mise à jour mineure de Moodle, ajout d'un nouveau plugin, mise à jour d'un plugin,.. ) l'outil mettra à jour la base de code à jour selon le nouvel état demandé. 
+L'outil construira pour chaque projet une base de code conforme à l'état demandé
+En cas de modifications (mise à jour mineure de Moodle, ajout d'un nouveau plugin, mise à jour d'un plugin,.. ) l'outil mettra à jour la base de code à jour pour obtenir le nouvel état demandé. 
 
 Cette même base de code sera déployée dans différents environnements.
 
+## Les fonctionnalités
+
+- sélection des plugins à parir du répertoire officiel Moodle
+- import de plugins à partir d'autre sources
+- possibilité de gérer en local une version personnalisée des plugins
+- gestion de la version des composants (moodle, plugins)
+- gestion d'une base de code par projet
+- multi projets : différentes version de Moodle, différentes listes de plugins
+- factorisation du code des composants du projet: pas de duplication de code
+- conservation de l'historique des changements
+- création d'environnements reproductibles
+- automatisation des mises à jour : montée de version mineures de Moodle, ajout, mise à jour de plugins
 
 ## Pre requis
 
 l' outil est un script bash qui fonctionne dans un environnement Linux avec les pre requis suivants:
 - installation de git pour récupérer les sources de Moodle
-- installation de git [gitsubrepo](https://github.com/ingydotnet/git-subrepo) pour installer les plugins
+- installation du package jq pour lire les fichiers au format json
 - installation [yq](https://github.com/mikefarah/yq/#install) pour lire le fichier de configuration au format yaml
-
 
 ## Pour démarrer:
 
@@ -73,15 +82,7 @@ selon les cas il s'agit :
 - de tester un nouveau plugin
 - d'installer une mise à jour de moodle et/ou d'un plugin
 
-## Les fonctionnalités
 
-- multi projets : différentes version de Moodle, différentes listes de plugins
-- factorisation du code des composants : pas de duplication de code
-- gestion implicite ou explicite de la version des composants (moodle, plugins)
-- possibilité de gérer en local une version personnalisée des plugins
-- conservation de l'historique des changements
-- possibilité de créer des environnements reproductibles
-- automatisation des mises à jour : montée de version mineures de Moodle, ajout, mise à jour de plugins
 
 Pour afficher  fichier markdown README.md
 
@@ -135,35 +136,12 @@ Pre requis
 
  sous Debian/ubuntu: apt-get install git 
 
-### installation de git-subrepo ###
-  
- voir  https://github.com/ingydotnet/git-subrepo
-
-La commande git-subrepo permet d'inclure le source des plugins dans de depot Moodle local.
-Cette commande est une amélioration de git-submodule : on n'a plus à gérer la complexité de l'inclusion de depot git dans un dépot git !
-
-Pour installer 
-  The best short answer is:
-
-    git clone https://github.com/ingydotnet/git-subrepo /path/to/git-subrepo
-    echo 'source /path/to/git-subrepo/.rc' >> ~/.bashrc
-
 ### installation de yq ###
 
 La liste des plugins d'un projet est au format yaml
 Le module yq permet de lire ce type de fichier
 
 https://github.com/mikefarah/yq
-
-### installation de pandoc
-
-apt install pandoc
-
-Pour afficher  fichier markdown README.md
-
-pandoc -s -f markdown -t man README.md | groff -T utf8 -man | less
-
-
 
 ## pour démarrer
 
