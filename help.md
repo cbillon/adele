@@ -12,7 +12,7 @@ Les 2 premiers chiffres indiquent la version majeure
 A chaque version majeure correspond une branche git spécifique
 Les versions majeures peuvent comprendre des pre requis techniques qui ont chnage par rapport aux versions précédentes (version minimum de php par exemple).
 Les versions majeures peuvent comporter des modifications d'API Moodle et/ou de structure des taables de la base données , qui peuvent empecher un plugin de s'éxécuter.
-Les versions mineures peuvent des modifificatios (nouvelles fonctions pr exemple) mais ne comportent pas de modification qui introduire des rupture de fonctionnement des plugins 
+Les versions mineures peuvent des modififications (nouvelles fonctions pr exemple) mais ne comportent pas de modification qui introduire des rupture de fonctionnement des plugins 
 A chaque livraison d'une version mineure le dernier chiffre est incrementé: 4.4.1, 4.4.2, ...
 des corrections sont livrées chaque semaine; mais des tests globaux de non régression sont seulement effectués lors des livraisons de versions mineures.   
 Le paramétre version est renseigné de la façon suivante:
@@ -57,4 +57,4 @@ permet de gerer en local une version personnalisée du plugin avec une branche l
 
 Les options du Menu
 
-![Menu](./menu.png)
+

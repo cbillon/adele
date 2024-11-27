@@ -1,1918 +1,26 @@
 {
-  "id": 772,
-  "name": "Attendance",
-  "component": "mod_attendance",
-  "source": "https://github.com/danmarsden/moodle-mod_attendance",
-  "doc": "http://docs.moodle.org/en/Attendance_module",
-  "bugs": "https://github.com/danmarsden/moodle-mod_attendance/issues",
-  "discussion": "https://moodle.org/mod/forum/view.php?id=741",
-  "timelastreleased": 1732166669,
+  "id": 3305,
+  "name": "Dynamic cohorts",
+  "component": "tool_dynamic_cohorts",
+  "source": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
+  "doc": null,
+  "bugs": "https://github.com/catalyst/moodle-tool_dynamic_cohorts/issues",
+  "discussion": null,
+  "timelastreleased": 1732169693,
   "versions": [
     {
-      "id": 3366,
-      "version": "2013070403",
-      "release": "2.4.1",
-      "maturity": 50,
-      "downloadurl": "https://moodle.org/plugins/download.php/3366/mod_attendance_moodle25_2013070403.zip",
-      "downloadmd5": "60f9b833bd3172a6813565930f56edfd",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "master",
-      "vcstag": null,
-      "timecreated": 1373403951,
-      "supportedmoodles": [
-        {
-          "version": 2013040500,
-          "release": "2.5"
-        }
-      ]
-    },
-    {
-      "id": 3375,
-      "version": "2013070402",
-      "release": "2.4.1",
-      "maturity": 50,
-      "downloadurl": "https://moodle.org/plugins/download.php/3375/mod_attendance_moodle24_2013070402.zip",
-      "downloadmd5": "51b82e3533b5fbbdba30519e076884c5",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_23_STABLE",
-      "vcstag": null,
-      "timecreated": 1373514227,
-      "supportedmoodles": [
-        {
-          "version": 2012062500,
-          "release": "2.3"
-        },
-        {
-          "version": 2012110900,
-          "release": "2.4"
-        }
-      ]
-    },
-    {
-      "id": 3827,
-      "version": "2013070404",
-      "release": "2.4.3",
+      "id": 31497,
+      "version": "2024032501",
+      "release": "2024032501",
       "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/3827/mod_attendance_moodle24_2013070404.zip",
-      "downloadmd5": "7749ac6057bf79f440c2ed3d2465bd87",
+      "downloadurl": "https://moodle.org/plugins/download.php/31497/tool_dynamic_cohorts_moodle41_2024032501.zip",
+      "downloadmd5": "a0cb4a0a527e69218cf3ac0397b8c547",
       "vcssystem": "git",
       "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
       "vcsbranch": null,
       "vcstag": null,
-      "timecreated": 1378071620,
-      "supportedmoodles": [
-        {
-          "version": 2012062500,
-          "release": "2.3"
-        },
-        {
-          "version": 2012110900,
-          "release": "2.4"
-        }
-      ]
-    },
-    {
-      "id": 3830,
-      "version": "2013082901",
-      "release": "2.5.2",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/3830/mod_attendance_moodle25_2013082901.zip",
-      "downloadmd5": "6e81283618fdf94674d91bf77f4d3934",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1378071701,
-      "supportedmoodles": [
-        {
-          "version": 2013040500,
-          "release": "2.5"
-        }
-      ]
-    },
-    {
-      "id": 5477,
-      "version": "2014022800",
-      "release": "2.6.0",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/5477/mod_attendance_moodle26_2014022800.zip",
-      "downloadmd5": "4f920f35be8df8983c946c825e8a4647",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1393531498,
-      "supportedmoodles": [
-        {
-          "version": 2013040500,
-          "release": "2.5"
-        },
-        {
-          "version": 2013101800,
-          "release": "2.6"
-        }
-      ]
-    },
-    {
-      "id": 5996,
-      "version": "2014022801",
-      "release": "2.6.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/5996/mod_attendance_moodle26_2014022801.zip",
-      "downloadmd5": "2e3152bd599dbfc0e4ec79f831efd9d1",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1399599411,
-      "supportedmoodles": [
-        {
-          "version": 2013040500,
-          "release": "2.5"
-        },
-        {
-          "version": 2013101800,
-          "release": "2.6"
-        }
-      ]
-    },
-    {
-      "id": 5997,
-      "version": "2014050900",
-      "release": "2.7.0",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/5997/mod_attendance_moodle27_2014050900.zip",
-      "downloadmd5": "9b367bf099c9721ecd843f665362e983",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1399599510,
-      "supportedmoodles": [
-        {
-          "version": 2014041100,
-          "release": "2.7"
-        }
-      ]
-    },
-    {
-      "id": 7014,
-      "version": "2014100900",
-      "release": "2.7.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/7014/mod_attendance_moodle27_2014100900.zip",
-      "downloadmd5": "f68c06b6c9422c078f108a3b3634f0e8",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1412818191,
-      "supportedmoodles": [
-        {
-          "version": 2014041100,
-          "release": "2.7"
-        }
-      ]
-    },
-    {
-      "id": 7015,
-      "version": "2014022802",
-      "release": "2.6.2",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/7015/mod_attendance_moodle26_2014022802.zip",
-      "downloadmd5": "31ba38d38cff48c33165c171877f9b4d",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1412818291,
-      "supportedmoodles": [
-        {
-          "version": 2013101800,
-          "release": "2.6"
-        }
-      ]
-    },
-    {
-      "id": 7016,
-      "version": "2014022802",
-      "release": "2.6.2",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/7016/mod_attendance_moodle25_2014022802.zip",
-      "downloadmd5": "fb4fff10243c41699534c39518a19e59",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1412818650,
-      "supportedmoodles": [
-        {
-          "version": 2013040500,
-          "release": "2.5"
-        }
-      ]
-    },
-    {
-      "id": 7304,
-      "version": "2014112001",
-      "release": "2.7.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/7304/mod_attendance_moodle28_2014112001.zip",
-      "downloadmd5": "cbf97cf512df71f4664ed1f6bb500080",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1416433378,
-      "supportedmoodles": [
-        {
-          "version": 2014041100,
-          "release": "2.7"
-        },
-        {
-          "version": 2014101000,
-          "release": "2.8"
-        }
-      ]
-    },
-    {
-      "id": 7305,
-      "version": "2014022803",
-      "release": "2.6.2",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/7305/mod_attendance_moodle26_2014022803.zip",
-      "downloadmd5": "92e3c66345d6c0ed732956b0f3edffa5",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1416433511,
-      "supportedmoodles": [
-        {
-          "version": 2013101800,
-          "release": "2.6"
-        }
-      ]
-    },
-    {
-      "id": 7306,
-      "version": "2014022803",
-      "release": "2.6.2",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/7306/mod_attendance_moodle25_2014022803.zip",
-      "downloadmd5": "f78a8999732986d45a9e643a0a398d57",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1416433624,
-      "supportedmoodles": [
-        {
-          "version": 2013040500,
-          "release": "2.5"
-        }
-      ]
-    },
-    {
-      "id": 8279,
-      "version": "2015033000",
-      "release": "2.8.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/8279/mod_attendance_moodle29_2015033000.zip",
-      "downloadmd5": "ab05e6e583dca3083e1f985dfb5f6fc6",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1427667279,
-      "supportedmoodles": [
-        {
-          "version": 2014101000,
-          "release": "2.8"
-        },
-        {
-          "version": 2015041700,
-          "release": "2.9"
-        }
-      ]
-    },
-    {
-      "id": 8459,
-      "version": "2015040500",
-      "release": "2.9.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/8459/mod_attendance_moodle30_2015040500.zip",
-      "downloadmd5": "183c051e88951c05c71c1d36550e9ef7",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1430706543,
-      "supportedmoodles": [
-        {
-          "version": 2014101000,
-          "release": "2.8"
-        },
-        {
-          "version": 2015041700,
-          "release": "2.9"
-        },
-        {
-          "version": 2015102300,
-          "release": "3.0"
-        }
-      ]
-    },
-    {
-      "id": 8460,
-      "version": "2014112002",
-      "release": "2.7.2",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/8460/mod_attendance_moodle27_2014112002.zip",
-      "downloadmd5": "5693fe942e3928efd1a2ae5686be1ffb",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1430706712,
-      "supportedmoodles": [
-        {
-          "version": 2014041100,
-          "release": "2.7"
-        }
-      ]
-    },
-    {
-      "id": 8461,
-      "version": "2014112002",
-      "release": "2.7.2",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/8461/mod_attendance_moodle27_2014112002.zip",
-      "downloadmd5": "7a59fecf68e44a111b3fe633e99e76c2",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1430706728,
-      "supportedmoodles": [
-        {
-          "version": 2014041100,
-          "release": "2.7"
-        }
-      ]
-    },
-    {
-      "id": 9589,
-      "version": "2015102200",
-      "release": "3.0.0.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/9589/mod_attendance_moodle30_2015102200.zip",
-      "downloadmd5": "d6f11e300ac71ad115c6f0b2cda315aa",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1445983684,
-      "supportedmoodles": [
-        {
-          "version": 2015041700,
-          "release": "2.9"
-        },
-        {
-          "version": 2015102300,
-          "release": "3.0"
-        }
-      ]
-    },
-    {
-      "id": 10937,
-      "version": "2016031501",
-      "release": "3.1.0.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/10937/mod_attendance_moodle30_2016031501.zip",
-      "downloadmd5": "944113b4cb270e17cfceff1e885a38fe",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_31_STABLE",
-      "vcstag": null,
-      "timecreated": 1459755755,
-      "supportedmoodles": [
-        {
-          "version": 2015041700,
-          "release": "2.9"
-        },
-        {
-          "version": 2015102300,
-          "release": "3.0"
-        }
-      ]
-    },
-    {
-      "id": 11313,
-      "version": "2016052000",
-      "release": "3.1.0.2",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/11313/mod_attendance_moodle31_2016052000.zip",
-      "downloadmd5": "2a1b97bfd317ff844b07c75b67c25018",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1463710692,
-      "supportedmoodles": [
-        {
-          "version": 2016050400,
-          "release": "3.1"
-        }
-      ]
-    },
-    {
-      "id": 11465,
-      "version": "2016052201",
-      "release": "3.1.0.3",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/11465/mod_attendance_moodle31_2016052201.zip",
-      "downloadmd5": "80cf33827a4525dec57360ad3102f1c1",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1465249144,
-      "supportedmoodles": [
-        {
-          "version": 2016050400,
-          "release": "3.1"
-        }
-      ]
-    },
-    {
-      "id": 11468,
-      "version": "2016052201",
-      "release": "3.1.0.3",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/11468/mod_attendance_moodle31_2016052201.zip",
-      "downloadmd5": "a0eee3b99913d4ecaf853b2b5daee77d",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1465256478,
-      "supportedmoodles": [
-        {
-          "version": 2016050400,
-          "release": "3.1"
-        }
-      ]
-    },
-    {
-      "id": 12721,
-      "version": "2016113000",
-      "release": "3.2.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/12721/mod_attendance_moodle32_2016113000.zip",
-      "downloadmd5": "c53a05a0e9a8240526525ec0b3446d2a",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1480451285,
-      "supportedmoodles": [
-        {
-          "version": 2016110800,
-          "release": "3.2"
-        }
-      ]
-    },
-    {
-      "id": 12725,
-      "version": "2016113001",
-      "release": "3.2.2",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/12725/mod_attendance_moodle32_2016113001.zip",
-      "downloadmd5": "d2c0d822f6cc1a6474c8018f54e09b73",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1480463007,
-      "supportedmoodles": [
-        {
-          "version": 2016110800,
-          "release": "3.2"
-        }
-      ]
-    },
-    {
-      "id": 13325,
-      "version": "2016121303",
-      "release": "3.2.4",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/13325/mod_attendance_moodle32_2016121303.zip",
-      "downloadmd5": "9f953cb35c7d15c33560afc1d13a7321",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1488152858,
-      "supportedmoodles": [
-        {
-          "version": 2016110800,
-          "release": "3.2"
-        }
-      ]
-    },
-    {
-      "id": 13747,
-      "version": "2017050200",
-      "release": "3.3.4",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/13747/mod_attendance_moodle33_2017050200.zip",
-      "downloadmd5": "967f36bc54c59e2c08e4728c19d92345",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1493685821,
-      "supportedmoodles": [
-        {
-          "version": 2017042100,
-          "release": "3.3"
-        }
-      ]
-    },
-    {
-      "id": 14023,
-      "version": "2017050204",
-      "release": "3.3.5",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/14023/mod_attendance_moodle33_2017050204.zip",
-      "downloadmd5": "53038745647cdcdcad99c9ebc6abbb37",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1495069041,
-      "supportedmoodles": [
-        {
-          "version": 2017042100,
-          "release": "3.3"
-        }
-      ]
-    },
-    {
-      "id": 14895,
-      "version": "2016052204",
-      "release": "3.1.1.2",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/14895/mod_attendance_moodle31_2016052204.zip",
-      "downloadmd5": "4cc69951a6b47611b68c3f1854b3e3a7",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1506478625,
-      "supportedmoodles": [
-        {
-          "version": 2016050400,
-          "release": "3.1"
-        }
-      ]
-    },
-    {
-      "id": 14896,
-      "version": "2016121322",
-      "release": "3.2.17",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/14896/mod_attendance_moodle32_2016121322.zip",
-      "downloadmd5": "6e9325c1a1c0793612c77e17f298d61d",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1506478759,
-      "supportedmoodles": [
-        {
-          "version": 2016110800,
-          "release": "3.2"
-        }
-      ]
-    },
-    {
-      "id": 14897,
-      "version": "2017050217",
-      "release": "3.3.12",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/14897/mod_attendance_moodle33_2017050217.zip",
-      "downloadmd5": "5f4c68bda7c3d614bfc2777c5e55fd62",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1506478882,
-      "supportedmoodles": [
-        {
-          "version": 2017042100,
-          "release": "3.3"
-        }
-      ]
-    },
-    {
-      "id": 14898,
-      "version": "2017050217",
-      "release": "3.3.12",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/14898/mod_attendance_moodle33_2017050217.zip",
-      "downloadmd5": "f84f070f72c11739aed440e17ee0a659",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1506480458,
-      "supportedmoodles": [
-        {
-          "version": 2017042100,
-          "release": "3.3"
-        }
-      ]
-    },
-    {
-      "id": 14899,
-      "version": "2016121322",
-      "release": "3.2.17",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/14899/mod_attendance_moodle32_2016121322.zip",
-      "downloadmd5": "3a0624e385e4d3e769a9892873522ed2",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1506480615,
-      "supportedmoodles": [
-        {
-          "version": 2016110800,
-          "release": "3.2"
-        }
-      ]
-    },
-    {
-      "id": 14931,
-      "version": "2017050217",
-      "release": "3.3.12",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/14931/mod_attendance_moodle33_2017050217.zip",
-      "downloadmd5": "ce6662022c7a2e7d0daa020802b00a22",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1506988071,
-      "supportedmoodles": [
-        {
-          "version": 2017042100,
-          "release": "3.3"
-        }
-      ]
-    },
-    {
-      "id": 14932,
-      "version": "2016121322",
-      "release": "3.2.17",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/14932/mod_attendance_moodle32_2016121322.zip",
-      "downloadmd5": "eab2d0d39e4d301b6b2128089e697a79",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1506988221,
-      "supportedmoodles": [
-        {
-          "version": 2016110800,
-          "release": "3.2"
-        }
-      ]
-    },
-    {
-      "id": 15174,
-      "version": "2017102700",
-      "release": "3.4.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/15174/mod_attendance_moodle34_2017102700.zip",
-      "downloadmd5": "6b00e2cc45c3377aac443a0c1bc03b90",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1509401408,
-      "supportedmoodles": [
-        {
-          "version": 2017102500,
-          "release": "3.4"
-        }
-      ]
-    },
-    {
-      "id": 16091,
-      "version": "2017112004",
-      "release": "3.4.3",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/16091/mod_attendance_moodle34_2017112004.zip",
-      "downloadmd5": "6700a6e8bd07c60a097f2ce29cc7a39f",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1519174075,
-      "supportedmoodles": [
-        {
-          "version": 2017102500,
-          "release": "3.4"
-        }
-      ]
-    },
-    {
-      "id": 16092,
-      "version": "2017112004",
-      "release": "3.4.3",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/16092/mod_attendance_moodle34_2017112004.zip",
-      "downloadmd5": "8dec0be8e3fa735b4e1576616abc35f5",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1519174767,
-      "supportedmoodles": [
-        {
-          "version": 2017102500,
-          "release": "3.4"
-        }
-      ]
-    },
-    {
-      "id": 16093,
-      "version": "2017050224",
-      "release": "3.3.14",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/16093/mod_attendance_moodle33_2017050224.zip",
-      "downloadmd5": "dc194cc578a1a46d5f2bfed27a6f2630",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1519176385,
-      "supportedmoodles": [
-        {
-          "version": 2017042100,
-          "release": "3.3"
-        }
-      ]
-    },
-    {
-      "id": 16094,
-      "version": "2017050224",
-      "release": "3.3.14",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/16094/mod_attendance_moodle33_2017050224.zip",
-      "downloadmd5": "b7ac90ceba1080482c1c878ce5f72596",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1519176979,
-      "supportedmoodles": [
-        {
-          "version": 2017042100,
-          "release": "3.3"
-        }
-      ]
-    },
-    {
-      "id": 16095,
-      "version": "2016121327",
-      "release": "3.2.19",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/16095/mod_attendance_moodle32_2016121327.zip",
-      "downloadmd5": "e305688fd756988785589ec1419dec1a",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1519177082,
-      "supportedmoodles": [
-        {
-          "version": 2016110800,
-          "release": "3.2"
-        }
-      ]
-    },
-    {
-      "id": 16322,
-      "version": "2016121329",
-      "release": "3.2.20",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/16322/mod_attendance_moodle32_2016121329.zip",
-      "downloadmd5": "714eea78a37cbf476a794058ca1d7111",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_32_STABLE",
-      "vcstag": null,
-      "timecreated": 1521751850,
-      "supportedmoodles": [
-        {
-          "version": 2016110800,
-          "release": "3.2"
-        }
-      ]
-    },
-    {
-      "id": 16323,
-      "version": "2017050226",
-      "release": "3.3.15",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/16323/mod_attendance_moodle33_2017050226.zip",
-      "downloadmd5": "9bd45b2e465e701b54e335cbae18919e",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_33_STABLE",
-      "vcstag": null,
-      "timecreated": 1521751907,
-      "supportedmoodles": [
-        {
-          "version": 2017042100,
-          "release": "3.3"
-        }
-      ]
-    },
-    {
-      "id": 16324,
-      "version": "2017112006",
-      "release": "3.4.4",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/16324/mod_attendance_moodle34_2017112006.zip",
-      "downloadmd5": "f4c573318952d48fefe31c4cdd747751",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_34_STABLE",
-      "vcstag": null,
-      "timecreated": 1521751964,
-      "supportedmoodles": [
-        {
-          "version": 2017102500,
-          "release": "3.4"
-        }
-      ]
-    },
-    {
-      "id": 16650,
-      "version": "2018051400",
-      "release": "3.5.0",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/16650/mod_attendance_moodle35_2018051400.zip",
-      "downloadmd5": "4fab81fbf836e0b95c4d830e283f374e",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_35_STABLE",
-      "vcstag": null,
-      "timecreated": 1526074483,
-      "supportedmoodles": [
-        {
-          "version": 2018042500,
-          "release": "3.5"
-        }
-      ]
-    },
-    {
-      "id": 17334,
-      "version": "2018051401",
-      "release": "3.5.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/17334/mod_attendance_moodle35_2018051401.zip",
-      "downloadmd5": "3352e91c2987b8cafe3585d21c9ac838",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_35_STABLE",
-      "vcstag": null,
-      "timecreated": 1531095664,
-      "supportedmoodles": [
-        {
-          "version": 2018042500,
-          "release": "3.5"
-        }
-      ]
-    },
-    {
-      "id": 17818,
-      "version": "2018051405",
-      "release": "3.5.3",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/17818/mod_attendance_moodle35_2018051405.zip",
-      "downloadmd5": "cb7f5f7ac617fd36c247b745c67408e8",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_35_STABLE",
-      "vcstag": null,
-      "timecreated": 1536804890,
-      "supportedmoodles": [
-        {
-          "version": 2018042500,
-          "release": "3.5"
-        }
-      ]
-    },
-    {
-      "id": 18109,
-      "version": "2018051407",
-      "release": "3.5.5",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/18109/mod_attendance_moodle35_2018051407.zip",
-      "downloadmd5": "ea1af8ac0913abb22cd740b8efe4a4c3",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_35_STABLE",
-      "vcstag": null,
-      "timecreated": 1540510384,
-      "supportedmoodles": [
-        {
-          "version": 2018042500,
-          "release": "3.5"
-        }
-      ]
-    },
-    {
-      "id": 18423,
-      "version": "2018102600",
-      "release": "3.6.3",
-      "maturity": 50,
-      "downloadurl": "https://moodle.org/plugins/download.php/18423/mod_attendance_moodle36_2018102600.zip",
-      "downloadmd5": "8fe0bba883900d450bef7c80ced467ea",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "Master",
-      "vcstag": null,
-      "timecreated": 1543745293,
-      "supportedmoodles": [
-        {
-          "version": 2018111800,
-          "release": "3.6"
-        }
-      ]
-    },
-    {
-      "id": 18442,
-      "version": "2018102600",
-      "release": "3.6.3",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/18442/mod_attendance_moodle36_2018102600.zip",
-      "downloadmd5": "f84918b41320bb5fe1b7e74378a23ed3",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "master",
-      "vcstag": null,
-      "timecreated": 1543868440,
-      "supportedmoodles": [
-        {
-          "version": 2018111800,
-          "release": "3.6"
-        }
-      ]
-    },
-    {
-      "id": 19061,
-      "version": "2019022500",
-      "release": "3.6.5",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/19061/mod_attendance_moodle36_2019022500.zip",
-      "downloadmd5": "1d283a2aa18b3181e75a2a6999ee3993",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "master",
-      "vcstag": null,
-      "timecreated": 1551046446,
-      "supportedmoodles": [
-        {
-          "version": 2018111800,
-          "release": "3.6"
-        }
-      ]
-    },
-    {
-      "id": 19062,
-      "version": "2018051408",
-      "release": "3.5.6",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/19062/mod_attendance_moodle35_2018051408.zip",
-      "downloadmd5": "e6f6f8410d252d886bcff2cf579e684a",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_35_STABLE",
-      "vcstag": null,
-      "timecreated": 1551046552,
-      "supportedmoodles": [
-        {
-          "version": 2018042500,
-          "release": "3.5"
-        }
-      ]
-    },
-    {
-      "id": 19637,
-      "version": "2019052800",
-      "release": "3.6.7",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/19637/mod_attendance_moodle37_2019052800.zip",
-      "downloadmd5": "6dfe5446699fd071b5e3a785bd69ce14",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "master",
-      "vcstag": null,
-      "timecreated": 1559005327,
-      "supportedmoodles": [
-        {
-          "version": 2018111800,
-          "release": "3.6"
-        },
-        {
-          "version": 2019051100,
-          "release": "3.7"
-        }
-      ]
-    },
-    {
-      "id": 19642,
-      "version": "2019052801",
-      "release": "3.6.7",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/19642/mod_attendance_moodle37_2019052801.zip",
-      "downloadmd5": "98e63b5bb251255fe306cb4c09ea5fe7",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "master",
-      "vcstag": null,
-      "timecreated": 1559012813,
-      "supportedmoodles": [
-        {
-          "version": 2018111800,
-          "release": "3.6"
-        },
-        {
-          "version": 2019051100,
-          "release": "3.7"
-        }
-      ]
-    },
-    {
-      "id": 20675,
-      "version": "2019072402",
-      "release": "3.7.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/20675/mod_attendance_moodle37_2019072402.zip",
-      "downloadmd5": "7e8c8d6191da0e81c0e90fe76ef0fbf2",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_37_STABLE",
-      "vcstag": null,
-      "timecreated": 1574629388,
-      "supportedmoodles": [
-        {
-          "version": 2019051100,
-          "release": "3.7"
-        }
-      ]
-    },
-    {
-      "id": 20676,
-      "version": "2019112500",
-      "release": "3.8.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/20676/mod_attendance_moodle38_2019112500.zip",
-      "downloadmd5": "313843a8ce3eb0f7404bc4ab173f2767",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "master",
-      "vcstag": null,
-      "timecreated": 1574629432,
-      "supportedmoodles": [
-        {
-          "version": 2019111200,
-          "release": "3.8"
-        }
-      ]
-    },
-    {
-      "id": 21114,
-      "version": "2019112500",
-      "release": "3.8.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/21114/mod_attendance_moodle38_2019112500.zip",
-      "downloadmd5": "05dd04f5ef73b421536a17e8ea7ddc35",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "master",
-      "vcstag": null,
-      "timecreated": 1582855517,
-      "supportedmoodles": [
-        {
-          "version": 2019111200,
-          "release": "3.8"
-        }
-      ]
-    },
-    {
-      "id": 21115,
-      "version": "2019072402",
-      "release": "3.7.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/21115/mod_attendance_moodle37_2019072402.zip",
-      "downloadmd5": "68973905e3fc5814e26cadab362ef611",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_37_STABLE",
-      "vcstag": null,
-      "timecreated": 1582855612,
-      "supportedmoodles": [
-        {
-          "version": 2019051100,
-          "release": "3.7"
-        }
-      ]
-    },
-    {
-      "id": 21116,
-      "version": "2018051409",
-      "release": "3.5.6",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/21116/mod_attendance_moodle35_2018051409.zip",
-      "downloadmd5": "4b43dd461bc34295ec6913f93103b369",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_35_STABLE",
-      "vcstag": null,
-      "timecreated": 1582855649,
-      "supportedmoodles": [
-        {
-          "version": 2018042500,
-          "release": "3.5"
-        }
-      ]
-    },
-    {
-      "id": 22036,
-      "version": "2020071700",
-      "release": "3.8.3",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/22036/mod_attendance_moodle39_2020071700.zip",
-      "downloadmd5": "297d0d0ad6b47851a6b88a13d1973c49",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "main",
-      "vcstag": null,
-      "timecreated": 1594949003,
-      "supportedmoodles": [
-        {
-          "version": 2019111200,
-          "release": "3.8"
-        },
-        {
-          "version": 2020060700,
-          "release": "3.9"
-        }
-      ]
-    },
-    {
-      "id": 22326,
-      "version": "2020082500",
-      "release": "3.8.4",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/22326/mod_attendance_moodle39_2020082500.zip",
-      "downloadmd5": "b129472521f4b00f018ee3c4245a773f",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "main",
-      "vcstag": null,
-      "timecreated": 1598310787,
-      "supportedmoodles": [
-        {
-          "version": 2019111200,
-          "release": "3.8"
-        },
-        {
-          "version": 2020060700,
-          "release": "3.9"
-        }
-      ]
-    },
-    {
-      "id": 22327,
-      "version": "2019072404",
-      "release": "3.7.2",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/22327/mod_attendance_moodle37_2019072404.zip",
-      "downloadmd5": "2def6edec68ce72bce76378219ba6c88",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_37_STABLE",
-      "vcstag": null,
-      "timecreated": 1598310878,
-      "supportedmoodles": [
-        {
-          "version": 2019051100,
-          "release": "3.7"
-        }
-      ]
-    },
-    {
-      "id": 23075,
-      "version": "2020120300",
-      "release": "3.9.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/23075/mod_attendance_moodle310_2020120300.zip",
-      "downloadmd5": "71074c78a4bf2aa932fac9531c531a6b",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "main",
-      "vcstag": null,
-      "timecreated": 1607646767,
-      "supportedmoodles": [
-        {
-          "version": 2019111200,
-          "release": "3.8"
-        },
-        {
-          "version": 2020060700,
-          "release": "3.9"
-        },
-        {
-          "version": 2020102800,
-          "release": "3.10"
-        }
-      ]
-    },
-    {
-      "id": 24120,
-      "version": "2021060700",
-      "release": "3.11.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/24120/mod_attendance_moodle311_2021060700.zip",
-      "downloadmd5": "11d5e88c4eff2eeb3bd441a157079e1b",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_311_STABLE",
-      "vcstag": null,
-      "timecreated": 1620684801,
-      "supportedmoodles": [
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        }
-      ]
-    },
-    {
-      "id": 24562,
-      "version": "2021062900",
-      "release": "3.11.2",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/24562/mod_attendance_moodle311_2021062900.zip",
-      "downloadmd5": "e6efafa2998ac98024ca5c069af4ed1a",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_311_STABLE",
-      "vcstag": null,
-      "timecreated": 1624955750,
-      "supportedmoodles": [
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        }
-      ]
-    },
-    {
-      "id": 24563,
-      "version": "2021050701",
-      "release": "3.9.2",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/24563/mod_attendance_moodle310_2021050701.zip",
-      "downloadmd5": "9311e09ebff43f13f979a091965440d5",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_38_STABLE",
-      "vcstag": null,
-      "timecreated": 1624955910,
-      "supportedmoodles": [
-        {
-          "version": 2020060700,
-          "release": "3.9"
-        },
-        {
-          "version": 2020102800,
-          "release": "3.10"
-        }
-      ]
-    },
-    {
-      "id": 24564,
-      "version": "2021062901",
-      "release": "3.11.3",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/24564/mod_attendance_moodle311_2021062901.zip",
-      "downloadmd5": "5a420181c0d93a55a144df64fd9243fe",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_311_STABLE",
-      "vcstag": null,
-      "timecreated": 1624956394,
-      "supportedmoodles": [
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        }
-      ]
-    },
-    {
-      "id": 24565,
-      "version": "2021050702",
-      "release": "3.9.3",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/24565/mod_attendance_moodle310_2021050702.zip",
-      "downloadmd5": "e964f5302d416cc67ce1b42c0bc2cdfb",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_38_STABLE",
-      "vcstag": null,
-      "timecreated": 1624956442,
-      "supportedmoodles": [
-        {
-          "version": 2020060700,
-          "release": "3.9"
-        },
-        {
-          "version": 2020102800,
-          "release": "3.10"
-        }
-      ]
-    },
-    {
-      "id": 24952,
-      "version": "2021072305",
-      "release": "3.11.5",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/24952/mod_attendance_moodle311_2021072305.zip",
-      "downloadmd5": "e3de91e7742296b2db46244b891a54d8",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1629171109,
-      "supportedmoodles": [
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        }
-      ]
-    },
-    {
-      "id": 24990,
-      "version": "2021082300",
-      "release": "3.11.6",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/24990/mod_attendance_moodle311_2021082300.zip",
-      "downloadmd5": "4988c43dda44727313c89018a2500e02",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1629676111,
-      "supportedmoodles": [
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        }
-      ]
-    },
-    {
-      "id": 24996,
-      "version": "2021082400",
-      "release": "3.11.7",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/24996/mod_attendance_moodle311_2021082400.zip",
-      "downloadmd5": "937840703cebb980db40244c6c18b573",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1629755271,
-      "supportedmoodles": [
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        }
-      ]
-    },
-    {
-      "id": 25008,
-      "version": "2021082402",
-      "release": "3.11.8",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/25008/mod_attendance_moodle311_2021082402.zip",
-      "downloadmd5": "b99cf64412750d2c44c2643d61e6fd76",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1629843682,
-      "supportedmoodles": [
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        }
-      ]
-    },
-    {
-      "id": 25009,
-      "version": "2021082403",
-      "release": "3.11.9",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/25009/mod_attendance_moodle311_2021082403.zip",
-      "downloadmd5": "8a40ba7c2f063214d2eb1552b65de8a8",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1629861502,
-      "supportedmoodles": [
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        }
-      ]
-    },
-    {
-      "id": 25012,
-      "version": "2021082600",
-      "release": "3.11.10",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/25012/mod_attendance_moodle311_2021082600.zip",
-      "downloadmd5": "85ad303140438b270f7b04dfc92f0354",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1629926916,
-      "supportedmoodles": [
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        }
-      ]
-    },
-    {
-      "id": 26170,
-      "version": "2022031700",
-      "release": "4.0.0",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/26170/mod_attendance_moodle40_2022031700.zip",
-      "downloadmd5": "cabf187eb13785982c1c9e1ec3f973c2",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_400_STABLE",
-      "vcstag": null,
-      "timecreated": 1647561427,
-      "supportedmoodles": [
-        {
-          "version": 2022030300,
-          "release": "4.0"
-        }
-      ]
-    },
-    {
-      "id": 26675,
-      "version": "2022051300",
-      "release": "4.0.1",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/26675/mod_attendance_moodle40_2022051300.zip",
-      "downloadmd5": "c553f935db0829c4795cc5489e54310f",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1652413420,
-      "supportedmoodles": [
-        {
-          "version": 2022030300,
-          "release": "4.0"
-        }
-      ]
-    },
-    {
-      "id": 26832,
-      "version": "2022061501",
-      "release": "4.0.2",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/26832/mod_attendance_moodle40_2022061501.zip",
-      "downloadmd5": "c8b4ecd6054c66c7d4ae05df7396a5c1",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1655245963,
-      "supportedmoodles": [
-        {
-          "version": 2022030300,
-          "release": "4.0"
-        }
-      ]
-    },
-    {
-      "id": 26912,
-      "version": "2022062700",
-      "release": "4.0.3",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/26912/mod_attendance_moodle40_2022062700.zip",
-      "downloadmd5": "da717e048dba6a69d20d0848d4b8600d",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1656291262,
-      "supportedmoodles": [
-        {
-          "version": 2022030300,
-          "release": "4.0"
-        }
-      ]
-    },
-    {
-      "id": 26913,
-      "version": "2021082601",
-      "release": "3.11.11",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/26913/mod_attendance_moodle311_2021082601.zip",
-      "downloadmd5": "9fd8b9bd14f6d56de75cd0caf208980f",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_311_STABLE",
-      "vcstag": null,
-      "timecreated": 1656292701,
-      "supportedmoodles": [
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        }
-      ]
-    },
-    {
-      "id": 27426,
-      "version": "2022082600",
-      "release": "4.0.5",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/27426/mod_attendance_moodle40_2022082600.zip",
-      "downloadmd5": "5fd19e464f328be58e7b69214e98c7d0",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1661480015,
-      "supportedmoodles": [
-        {
-          "version": 2022030300,
-          "release": "4.0"
-        }
-      ]
-    },
-    {
-      "id": 27438,
-      "version": "2022082900",
-      "release": "4.0.6",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/27438/mod_attendance_moodle40_2022082900.zip",
-      "downloadmd5": "a35a68679585c0bc487c6288d51353f9",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1661737101,
-      "supportedmoodles": [
-        {
-          "version": 2022030300,
-          "release": "4.0"
-        }
-      ]
-    },
-    {
-      "id": 27453,
-      "version": "2021082606",
-      "release": "3.11.14",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/27453/mod_attendance_moodle311_2021082606.zip",
-      "downloadmd5": "e7fd7a3d3c3f771b076d013c4350cb09",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1661901152,
-      "supportedmoodles": [
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        }
-      ]
-    },
-    {
-      "id": 27463,
-      "version": "2022083100",
-      "release": "4.0.6",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/27463/mod_attendance_moodle40_2022083100.zip",
-      "downloadmd5": "efe703da0d8600849387e7822e59fb3a",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1661989329,
-      "supportedmoodles": [
-        {
-          "version": 2022030300,
-          "release": "4.0"
-        }
-      ]
-    },
-    {
-      "id": 27496,
-      "version": "2022083101",
-      "release": "4.0.7",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/27496/mod_attendance_moodle40_2022083101.zip",
-      "downloadmd5": "263a345ae7a54766647994008e3ee42e",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1662449896,
-      "supportedmoodles": [
-        {
-          "version": 2022030300,
-          "release": "4.0"
-        }
-      ]
-    },
-    {
-      "id": 27513,
-      "version": "2022083102",
-      "release": "4.0.8",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/27513/mod_attendance_moodle40_2022083102.zip",
-      "downloadmd5": "29875ebd2a24daa65eec566d8dc1307b",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1662675009,
-      "supportedmoodles": [
-        {
-          "version": 2022030300,
-          "release": "4.0"
-        }
-      ]
-    },
-    {
-      "id": 27515,
-      "version": "2021082607",
-      "release": "3.11.15",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/27515/mod_attendance_moodle311_2021082607.zip",
-      "downloadmd5": "f72e318ffa2cce2500cabb5b6069e50f",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1662675199,
-      "supportedmoodles": [
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        }
-      ]
-    },
-    {
-      "id": 27524,
-      "version": "2022083103",
-      "release": "4.0.8",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/27524/mod_attendance_moodle40_2022083103.zip",
-      "downloadmd5": "2368610722e3c76b789629f913df0ca8",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1662752917,
-      "supportedmoodles": [
-        {
-          "version": 2022030300,
-          "release": "4.0"
-        }
-      ]
-    },
-    {
-      "id": 27525,
-      "version": "2021082608",
-      "release": "3.11.15",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/27525/mod_attendance_moodle311_2021082608.zip",
-      "downloadmd5": "3a2b383393f75f7073ed71a330b2ca18",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1662753318,
-      "supportedmoodles": [
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        }
-      ]
-    },
-    {
-      "id": 27527,
-      "version": "2022083104",
-      "release": "4.0.8",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/27527/mod_attendance_moodle40_2022083104.zip",
-      "downloadmd5": "0eb887a39d2a81a61b505400fcff3429",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1662755415,
-      "supportedmoodles": [
-        {
-          "version": 2022030300,
-          "release": "4.0"
-        }
-      ]
-    },
-    {
-      "id": 27528,
-      "version": "2022083105",
-      "release": "4.0.9",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/27528/mod_attendance_moodle40_2022083105.zip",
-      "downloadmd5": "d90fa4400948e3ba6ffad80e4f499aaa",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1662793947,
-      "supportedmoodles": [
-        {
-          "version": 2022030300,
-          "release": "4.0"
-        }
-      ]
-    },
-    {
-      "id": 27529,
-      "version": "2021082609",
-      "release": "3.11.16",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/27529/mod_attendance_moodle311_2021082609.zip",
-      "downloadmd5": "ab666cb09ce19b5b3ccb428e18f75b9e",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1662793988,
-      "supportedmoodles": [
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        }
-      ]
-    },
-    {
-      "id": 27540,
-      "version": "2022083107",
-      "release": "4.0.10",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/27540/mod_attendance_moodle40_2022083107.zip",
-      "downloadmd5": "17965c9989baff4c69e875cff411f5f8",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1663058507,
-      "supportedmoodles": [
-        {
-          "version": 2022030300,
-          "release": "4.0"
-        }
-      ]
-    },
-    {
-      "id": 27947,
-      "version": "2022111700",
-      "release": "2022111700",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/27947/mod_attendance_moodle41_2022111700.zip",
-      "downloadmd5": "be99a3739e4211ce995d093769a7463b",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_401_STABLE",
-      "vcstag": null,
-      "timecreated": 1668645979,
+      "timecreated": 1711339481,
       "supportedmoodles": [
         {
           "version": 2022111500,
@@ -1921,199 +29,27 @@
       ]
     },
     {
-      "id": 28432,
-      "version": "2022083108",
-      "release": "4.0.11",
+      "id": 31511,
+      "version": "2024032600",
+      "release": "2024032600",
       "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/28432/mod_attendance_moodle40_2022083108.zip",
-      "downloadmd5": "e96546e4d1d1b1281d226181a14aac9d",
+      "downloadurl": "https://moodle.org/plugins/download.php/31511/tool_dynamic_cohorts_moodle43_2024032600.zip",
+      "downloadmd5": "cf1d267757d164a64c7921d6adbb19a3",
       "vcssystem": "git",
       "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
       "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1674720756,
-      "supportedmoodles": [
-        {
-          "version": 2022030300,
-          "release": "4.0"
-        }
-      ]
-    },
-    {
-      "id": 28433,
-      "version": "2021082610",
-      "release": "3.11.17",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/28433/mod_attendance_moodle311_2021082610.zip",
-      "downloadmd5": "5c554750d2795101a62ef0832de7e6ff",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1674720850,
-      "supportedmoodles": [
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        }
-      ]
-    },
-    {
-      "id": 28436,
-      "version": "2023012601",
-      "release": "2023012601",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/28436/mod_attendance_moodle41_2023012601.zip",
-      "downloadmd5": "8042ca169b0d589b999df38a17d6e9b9",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1674722231,
+      "vcstag": "2024032600",
+      "timecreated": 1711424580,
       "supportedmoodles": [
         {
           "version": 2022111500,
           "release": "4.1"
-        }
-      ]
-    },
-    {
-      "id": 28555,
-      "version": "2023020102",
-      "release": "2023020102",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/28555/mod_attendance_moodle41_2023020102.zip",
-      "downloadmd5": "14ffc20590caad8d0efae1d897f37c8e",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1675993312,
-      "supportedmoodles": [
-        {
-          "version": 2022111500,
-          "release": "4.1"
-        }
-      ]
-    },
-    {
-      "id": 28609,
-      "version": "2023020104",
-      "release": "2023020104",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/28609/mod_attendance_moodle41_2023020104.zip",
-      "downloadmd5": "f45aaf36f8b0c0996fc48838c83b7a85",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_401_STABLE",
-      "vcstag": null,
-      "timecreated": 1677101312,
-      "supportedmoodles": [
-        {
-          "version": 2022111500,
-          "release": "4.1"
-        }
-      ]
-    },
-    {
-      "id": 28783,
-      "version": "2023020105",
-      "release": "2023020105",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/28783/mod_attendance_moodle41_2023020105.zip",
-      "downloadmd5": "869078635294ccb1fa1d2ecbae65988e",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_401_STABLE",
-      "vcstag": null,
-      "timecreated": 1679557676,
-      "supportedmoodles": [
-        {
-          "version": 2022111500,
-          "release": "4.1"
-        }
-      ]
-    },
-    {
-      "id": 28807,
-      "version": "2023020107",
-      "release": "2023020107",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/28807/mod_attendance_moodle41_2023020107.zip",
-      "downloadmd5": "2020e805541785f7c76c121c31871df8",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_401_STABLE",
-      "vcstag": null,
-      "timecreated": 1679960892,
-      "supportedmoodles": [
-        {
-          "version": 2022111500,
-          "release": "4.1"
-        }
-      ]
-    },
-    {
-      "id": 28958,
-      "version": "2023041800",
-      "release": "2023041800",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/28958/mod_attendance_moodle42_2023041800.zip",
-      "downloadmd5": "daca7f9e04ae9f50e9c956de698e875e",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_402_STABLE",
-      "vcstag": null,
-      "timecreated": 1681782426,
-      "supportedmoodles": [
+        },
         {
           "version": 2023041400,
           "release": "4.2"
-        }
-      ]
-    },
-    {
-      "id": 32277,
-      "version": "2024060401",
-      "release": "2024060401",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/32277/mod_attendance_moodle44_2024060401.zip",
-      "downloadmd5": "1a5a51f245d252ab20d7f0904335aaac",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_404_STABLE",
-      "vcstag": null,
-      "timecreated": 1717489925,
-      "supportedmoodles": [
-        {
-          "version": 2024041200,
-          "release": "4.4"
-        }
-      ]
-    },
-    {
-      "id": 32278,
-      "version": "2024042202",
-      "release": "2024042202",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/32278/mod_attendance_moodle43_2024042202.zip",
-      "downloadmd5": "618015d6fbe88c7cfdf9283d385bf42a",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_403_STABLE",
-      "vcstag": null,
-      "timecreated": 1717489973,
-      "supportedmoodles": [
+        },
         {
           "version": 2023092300,
           "release": "4.3"
@@ -2121,59 +57,27 @@
       ]
     },
     {
-      "id": 32588,
-      "version": "2024060402",
-      "release": "2024060402",
+      "id": 31556,
+      "version": "2024040401",
+      "release": "2024040401",
       "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/32588/mod_attendance_moodle44_2024060402.zip",
-      "downloadmd5": "0e0512f43ea3c8a1beedc8a7585d4f99",
+      "downloadurl": "https://moodle.org/plugins/download.php/31556/tool_dynamic_cohorts_moodle43_2024040401.zip",
+      "downloadmd5": "8e2be8efdcf120d5689484968fd3ff42",
       "vcssystem": "git",
       "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_404_STABLE",
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
+      "vcsbranch": "MOODLE_401_STABLE",
       "vcstag": null,
-      "timecreated": 1721121879,
+      "timecreated": 1712211393,
       "supportedmoodles": [
         {
-          "version": 2024041200,
-          "release": "4.4"
-        }
-      ]
-    },
-    {
-      "id": 32668,
-      "version": "2024072400",
-      "release": "2024072400",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/32668/mod_attendance_moodle44_2024072400.zip",
-      "downloadmd5": "3b89e949da32ff32d540c8bf9d0e00e2",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_404_STABLE",
-      "vcstag": null,
-      "timecreated": 1721789039,
-      "supportedmoodles": [
+          "version": 2022111500,
+          "release": "4.1"
+        },
         {
-          "version": 2024041200,
-          "release": "4.4"
-        }
-      ]
-    },
-    {
-      "id": 32669,
-      "version": "2024042203",
-      "release": "2024042203",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/32669/mod_attendance_moodle43_2024042203.zip",
-      "downloadmd5": "f29273c6ecb391d84140e5ffc1ea3e42",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_403_STABLE",
-      "vcstag": null,
-      "timecreated": 1721789280,
-      "supportedmoodles": [
+          "version": 2023041400,
+          "release": "4.2"
+        },
         {
           "version": 2023092300,
           "release": "4.3"
@@ -2181,42 +85,346 @@
       ]
     },
     {
-      "id": 32670,
-      "version": "2023041801",
-      "release": "2023041801",
+      "id": 31564,
+      "version": "2024040500",
+      "release": "2024040500",
       "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/32670/mod_attendance_moodle42_2023041801.zip",
-      "downloadmd5": "b4b05fe5882f487c29f09b7aefac62c8",
+      "downloadurl": "https://moodle.org/plugins/download.php/31564/tool_dynamic_cohorts_moodle43_2024040500.zip",
+      "downloadmd5": "2dd7562980e6aa753a98d854656a6378",
       "vcssystem": "git",
       "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
-      "vcsbranch": "MOODLE_402_STABLE",
-      "vcstag": null,
-      "timecreated": 1721789303,
-      "supportedmoodles": [
-        {
-          "version": 2023041400,
-          "release": "4.2"
-        }
-      ]
-    },
-    {
-      "id": 32671,
-      "version": "2023020108",
-      "release": "2023020108",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/32671/mod_attendance_moodle41_2023020108.zip",
-      "downloadmd5": "ccbb0015a227d09b4b26d7b21a59bbdc",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/danmarsden/moodle-mod_attendance",
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
       "vcsbranch": "MOODLE_401_STABLE",
       "vcstag": null,
-      "timecreated": 1721789313,
+      "timecreated": 1712290261,
       "supportedmoodles": [
         {
           "version": 2022111500,
           "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        }
+      ]
+    },
+    {
+      "id": 31576,
+      "version": "2024040600",
+      "release": "2024040600",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/31576/tool_dynamic_cohorts_moodle43_2024040600.zip",
+      "downloadmd5": "8ad20eaf60774edaa408de84721ca369",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
+      "vcsbranch": "MOODLE_401_STABLE",
+      "vcstag": null,
+      "timecreated": 1712410204,
+      "supportedmoodles": [
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        }
+      ]
+    },
+    {
+      "id": 31760,
+      "version": "2024042001",
+      "release": "2024042001",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/31760/tool_dynamic_cohorts_moodle43_2024042001.zip",
+      "downloadmd5": "cec099a6867869fd4836c1922c041177",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
+      "vcsbranch": "MOODLE_401_STABLE",
+      "vcstag": null,
+      "timecreated": 1713821135,
+      "supportedmoodles": [
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        }
+      ]
+    },
+    {
+      "id": 32066,
+      "version": "2024051000",
+      "release": "2024051000",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/32066/tool_dynamic_cohorts_moodle43_2024051000.zip",
+      "downloadmd5": "53ccc35218f06b2a4375b3c1121a8876",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
+      "vcsbranch": "MOODLE_401_STABLE",
+      "vcstag": null,
+      "timecreated": 1715564375,
+      "supportedmoodles": [
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        }
+      ]
+    },
+    {
+      "id": 32410,
+      "version": "2024062200",
+      "release": "2024062200",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/32410/tool_dynamic_cohorts_moodle44_2024062200.zip",
+      "downloadmd5": "818ee7843d685e120dda0fc584014ba1",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
+      "vcsbranch": "MOODLE_404_STABLE",
+      "vcstag": null,
+      "timecreated": 1719038736,
+      "supportedmoodles": [
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        }
+      ]
+    },
+    {
+      "id": 32416,
+      "version": "2024062400",
+      "release": "2024062400",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/32416/tool_dynamic_cohorts_moodle44_2024062400.zip",
+      "downloadmd5": "2286177153ede59cfa95c218cbb693e3",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
+      "vcsbranch": "MOODLE_404_STABLE",
+      "vcstag": null,
+      "timecreated": 1719215592,
+      "supportedmoodles": [
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        }
+      ]
+    },
+    {
+      "id": 32517,
+      "version": "2024070900",
+      "release": "2024070900",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/32517/tool_dynamic_cohorts_moodle44_2024070900.zip",
+      "downloadmd5": "2d0dfd30a5ad6bc19fbd337920cddbc8",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
+      "vcsbranch": "MOODLE_404_STABLE",
+      "vcstag": null,
+      "timecreated": 1720515850,
+      "supportedmoodles": [
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        }
+      ]
+    },
+    {
+      "id": 32518,
+      "version": "2024051001",
+      "release": "2024051001",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/32518/tool_dynamic_cohorts_moodle43_2024051001.zip",
+      "downloadmd5": "6bd549379eae3677d9891f5863e9b7cf",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
+      "vcsbranch": "MOODLE_401_STABLE",
+      "vcstag": null,
+      "timecreated": 1720515875,
+      "supportedmoodles": [
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        }
+      ]
+    },
+    {
+      "id": 33106,
+      "version": "2024051003",
+      "release": "2024051001",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/33106/tool_dynamic_cohorts_moodle43_2024051003.zip",
+      "downloadmd5": "354eb5e2ed33ab4473ebed724b958a3c",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
+      "vcsbranch": "MOODLE_401_STABLE",
+      "vcstag": null,
+      "timecreated": 1725924859,
+      "supportedmoodles": [
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        }
+      ]
+    },
+    {
+      "id": 33107,
+      "version": "2024091000",
+      "release": "2024091000",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/33107/tool_dynamic_cohorts_moodle44_2024091000.zip",
+      "downloadmd5": "b6f62528ea6d91c6c320a45e5ec0c94d",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
+      "vcsbranch": "MOODLE_404_STABLE",
+      "vcstag": null,
+      "timecreated": 1725925252,
+      "supportedmoodles": [
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        }
+      ]
+    },
+    {
+      "id": 33136,
+      "version": "2024091300",
+      "release": "2024091300",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/33136/tool_dynamic_cohorts_moodle44_2024091300.zip",
+      "downloadmd5": "75f5d8f170ed6803ef5b33824f24c386",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
+      "vcsbranch": "MOODLE_404_STABLE",
+      "vcstag": null,
+      "timecreated": 1726218138,
+      "supportedmoodles": [
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        }
+      ]
+    },
+    {
+      "id": 33154,
+      "version": "2024051004",
+      "release": "2024051004",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/33154/tool_dynamic_cohorts_moodle43_2024051004.zip",
+      "downloadmd5": "7693e20e375defde60b62286a248fe56",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
+      "vcsbranch": "MOODLE_401_STABLE",
+      "vcstag": null,
+      "timecreated": 1726446833,
+      "supportedmoodles": [
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        }
+      ]
+    },
+    {
+      "id": 33806,
+      "version": "2024110701",
+      "release": "2024110701",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/33806/tool_dynamic_cohorts_moodle45_2024110701.zip",
+      "downloadmd5": "eff368221f93e1e34e7784609b35eae8",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
+      "vcsbranch": "MOODLE_404_STABLE",
+      "vcstag": null,
+      "timecreated": 1730962111,
+      "supportedmoodles": [
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        },
+        {
+          "version": 2024100700,
+          "release": "4.5"
+        }
+      ]
+    },
+    {
+      "id": 33964,
+      "version": "2024112100",
+      "release": "2024112100",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/33964/tool_dynamic_cohorts_moodle45_2024112100.zip",
+      "downloadmd5": "768f430f21935a800486eee28ab15f94",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_dynamic_cohorts",
+      "vcsbranch": "MOODLE_404_STABLE",
+      "vcstag": null,
+      "timecreated": 1732169693,
+      "supportedmoodles": [
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        },
+        {
+          "version": 2024100700,
+          "release": "4.5"
         }
       ]
     }
