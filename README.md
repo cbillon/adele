@@ -141,7 +141,13 @@ Pre requis
 La liste des plugins d'un projet est au format yaml
 Le module yq permet de lire ce type de fichier
 
-https://github.com/mikefarah/yq
+[yq](https://github.com/mikefarah/yq)
+
+```
+  sudo wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O /usr/bin/yq &&\
+  sudo chmod +x /usr/bin/yq
+
+```
 
 ## pour démarrer
 
