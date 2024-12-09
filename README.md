@@ -3,8 +3,9 @@
 
 ## Objectif
 
-Outil d'administration pour déployer les plugins de Moodle avec git (sans utiliser les sub modules). 
+Outil d'administration pour déployer les plugins de Moodle avec git (sans utiliser les git sub modules). 
 L'utilisation de git pour gerer les sources de Moodle et des plugins permet de conserver un historique des mises à jour.
+Il s'agit de gérer une base de code construite à partir d'une version de Moodle et d'y integrer une liste de plugins.
 Un fichier de configuration décrit l'état souhaité de votre projet: 
 
 ```bash
@@ -23,15 +24,21 @@ Un fichier de configuration décrit l'état souhaité de votre projet:
 L'outil construira pour chaque projet une base de code conforme à l'état demandé
 En cas de modifications (mise à jour mineure de Moodle, ajout d'un nouveau plugin, mise à jour d'un plugin,.. ) l'outil mettra à jour la base de code à jour pour obtenir le nouvel état demandé. 
 
+Un adminstrateur Moodle est amené très rapidement à gérer de multiples environnements.
+selon les cas il s'agit :
+- de gérer plusieus projets
+- d'avoir des environnements de développment, test, production distincts
+- de tester un nouveau plugin
+- d'installer une mise à jour de moodle et/ou d'un plugin
 Cette même base de code sera déployée dans différents environnements.
 
 ## Les fonctionnalités
 
-- sélection des plugins à parir du répertoire officiel Moodle
-- import de plugins à partir d'autre sources
-- possibilité de gérer en local une version personnalisée des plugins
-- gestion de la version des composants (moodle, plugins)
 - gestion d'une base de code par projet
+- gestion de la version des composants (moodle, plugins)
+- sélection des plugins à parir du répertoire officiel Moodle 
+- import de plugins à partir d'autre sources
+- possibilité de gérer en local une version personnalisée des plugins (customisation)
 - multi projets : différentes version de Moodle, différentes listes de plugins
 - factorisation du code des composants du projet: pas de duplication de code
 - conservation de l'historique des changements
@@ -75,12 +82,7 @@ Une FAQ revient en détail sur les points suivants:
 - gestion des versions des plugins 
 
 
-Un adminstrateur Moodle est amené très rapidement à gérer de multiples environnements.
-selon les cas il s'agit :
-- de gérer plusieus projets
-- d'avoir des environnements de développment, test, production distincts
-- de tester un nouveau plugin
-- d'installer une mise à jour de moodle et/ou d'un plugin
+
 
 
 

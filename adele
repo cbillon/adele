@@ -56,7 +56,7 @@ do
   "4"  "Mise à jour du cache dépot local des plugins" \
   "5"  "Mise à jour de la base de code du projet" \
   "6"  "Génèration d'une nouvelle version du projet"  \
-  "7"  "Deploy" \
+  "7"  "To do..." \
   "8"  "Help" \
   "9"  "Exit" 3>&1 1>&2 2>&3)
   
@@ -70,7 +70,7 @@ do
     elif [ "$OPTION" = 4 ]; then update_repo  "$PROJECT"           
     elif [ "$OPTION" = 5 ]; then update_codebase "$PROJECT"          
     elif [ "$OPTION" = 6 ]; then release  "$PROJECT" "$MSG"
-    elif [ "$OPTION" = 7 ]; then deploy "$PROJECT"  
+    elif [ "$OPTION" = 7 ]; then nothingtodo "$PROJECT"  
     elif [ "$OPTION" = 8 ]; then help "$PROJECT" 
     elif [ "$OPTION" = 9 ]; then sortie=1
      
