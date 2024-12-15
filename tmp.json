@@ -1,114 +1,26 @@
 {
-  "id": 2824,
-  "name": "User upsert",
-  "component": "tool_userupsert",
-  "source": "https://github.com/catalyst/moodle-tool_userupsert",
-  "doc": null,
-  "bugs": "https://github.com/catalyst/moodle-tool_userupsert/issues",
+  "id": 3295,
+  "name": "Vault - Site migration",
+  "component": "tool_vault",
+  "source": "https://github.com/lmscloud-io/moodle-tool_vault",
+  "doc": "https://lmsvault.io",
+  "bugs": "https://github.com/lmscloud-io/moodle-tool_vault/issues",
   "discussion": null,
-  "timelastreleased": 1732148600,
+  "timelastreleased": 1731887395,
   "versions": [
     {
-      "id": 25336,
-      "version": "2021100503",
-      "release": "2021100503",
+      "id": 31423,
+      "version": "2024031600",
+      "release": "1.0",
       "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/25336/tool_userupsert_moodle311_2021100503.zip",
-      "downloadmd5": "0ccb6d181ce98d277defd7f02531bde2",
+      "downloadurl": "https://moodle.org/plugins/download.php/31423/tool_vault_moodle43_2024031600.zip",
+      "downloadmd5": "431fff694085368e276c05cf4f24bdac",
       "vcssystem": "git",
       "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_userupsert",
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
       "vcsbranch": null,
-      "vcstag": null,
-      "timecreated": 1634864505,
-      "supportedmoodles": [
-        {
-          "version": 2020060700,
-          "release": "3.9"
-        },
-        {
-          "version": 2020102800,
-          "release": "3.10"
-        },
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        }
-      ]
-    },
-    {
-      "id": 27281,
-      "version": "2022072500",
-      "release": "2022072500",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/27281/tool_userupsert_moodle40_2022072500.zip",
-      "downloadmd5": "fb84b751d689614e6187e9ce42278285",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_userupsert",
-      "vcsbranch": null,
-      "vcstag": "2022072500",
-      "timecreated": 1659567102,
-      "supportedmoodles": [
-        {
-          "version": 2020060700,
-          "release": "3.9"
-        },
-        {
-          "version": 2020102800,
-          "release": "3.10"
-        },
-        {
-          "version": 2021050700,
-          "release": "3.11"
-        },
-        {
-          "version": 2022030300,
-          "release": "4.0"
-        }
-      ]
-    },
-    {
-      "id": 32145,
-      "version": "2024052000",
-      "release": "2024052000",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/32145/tool_userupsert_moodle44_2024052000.zip",
-      "downloadmd5": "811f35b6ed3b02557308dea696f1d328",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_userupsert",
-      "vcsbranch": "MOODLE_402_STABLE",
-      "vcstag": null,
-      "timecreated": 1716170935,
-      "supportedmoodles": [
-        {
-          "version": 2023041400,
-          "release": "4.2"
-        },
-        {
-          "version": 2023092300,
-          "release": "4.3"
-        },
-        {
-          "version": 2024041200,
-          "release": "4.4"
-        }
-      ]
-    },
-    {
-      "id": 32146,
-      "version": "2023010501",
-      "release": "2023010501",
-      "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/32146/tool_userupsert_moodle41_2023010501.zip",
-      "downloadmd5": "acd3960296fd8cadd0b2d2facf58f763",
-      "vcssystem": "git",
-      "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_userupsert",
-      "vcsbranch": "MOODLE_39_STABLE",
-      "vcstag": null,
-      "timecreated": 1716173185,
+      "vcstag": "v1.0",
+      "timecreated": 1710669433,
       "supportedmoodles": [
         {
           "version": 2020060700,
@@ -129,23 +41,907 @@
         {
           "version": 2022111500,
           "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
         }
       ]
     },
     {
-      "id": 33961,
-      "version": "2024052001",
-      "release": "2024052001",
+      "id": 31496,
+      "version": "2024032400",
+      "release": "1.1",
       "maturity": 200,
-      "downloadurl": "https://moodle.org/plugins/download.php/33961/tool_userupsert_moodle45_2024052001.zip",
-      "downloadmd5": "3e6ef7eb84641b02032e44a4b1766d83",
+      "downloadurl": "https://moodle.org/plugins/download.php/31496/tool_vault_moodle43_2024032400.zip",
+      "downloadmd5": "79b0091c25327a6932239ba00f79af7b",
       "vcssystem": "git",
       "vcssystemother": null,
-      "vcsrepositoryurl": "https://github.com/catalyst/moodle-tool_userupsert",
-      "vcsbranch": "MOODLE_402_STABLE",
-      "vcstag": null,
-      "timecreated": 1732148600,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v1.1",
+      "timecreated": 1711322865,
       "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        }
+      ]
+    },
+    {
+      "id": 31510,
+      "version": "2024032500",
+      "release": "1.2",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/31510/tool_vault_moodle43_2024032500.zip",
+      "downloadmd5": "9044486ce1db2fa23a2dac9b9f6862f2",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v1.2",
+      "timecreated": 1711393811,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        }
+      ]
+    },
+    {
+      "id": 31523,
+      "version": "2024032700",
+      "release": "1.3",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/31523/tool_vault_moodle43_2024032700.zip",
+      "downloadmd5": "c3b8ff14720382a5a5b9f3c917d87d85",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v1.3",
+      "timecreated": 1711548423,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        }
+      ]
+    },
+    {
+      "id": 31530,
+      "version": "2024032900",
+      "release": "1.4",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/31530/tool_vault_moodle43_2024032900.zip",
+      "downloadmd5": "e5b09c165f2a4b9fe52e6cc6b106540e",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v1.4",
+      "timecreated": 1711710316,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        }
+      ]
+    },
+    {
+      "id": 31600,
+      "version": "2024040700",
+      "release": "1.5",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/31600/tool_vault_moodle43_2024040700.zip",
+      "downloadmd5": "6605016267bdd753925f562f9790a842",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v1.5",
+      "timecreated": 1712519545,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        }
+      ]
+    },
+    {
+      "id": 31619,
+      "version": "2024040900",
+      "release": "1.6",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/31619/tool_vault_moodle43_2024040900.zip",
+      "downloadmd5": "7bc360732991fb828b33094fff27b927",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v1.6",
+      "timecreated": 1712700787,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        }
+      ]
+    },
+    {
+      "id": 31822,
+      "version": "2024042400",
+      "release": "1.7",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/31822/tool_vault_moodle44_2024042400.zip",
+      "downloadmd5": "405b93303e8cb9ddb96e34a56963480f",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v1.7",
+      "timecreated": 1713999816,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        },
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        }
+      ]
+    },
+    {
+      "id": 31874,
+      "version": "2024043000",
+      "release": "1.8",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/31874/tool_vault_moodle44_2024043000.zip",
+      "downloadmd5": "8130d4940362505710a2dd7d27b15173",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v1.8",
+      "timecreated": 1714491644,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        },
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        }
+      ]
+    },
+    {
+      "id": 31960,
+      "version": "2024050500",
+      "release": "1.9",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/31960/tool_vault_moodle44_2024050500.zip",
+      "downloadmd5": "31267687bcbda19a464d729c6fde22d6",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v1.9",
+      "timecreated": 1714949342,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        },
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        }
+      ]
+    },
+    {
+      "id": 32314,
+      "version": "2024061000",
+      "release": "2.0",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/32314/tool_vault_moodle44_2024061000.zip",
+      "downloadmd5": "7cdd3224ec6dcd401802072f766dbc1c",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v2.0",
+      "timecreated": 1718043616,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        },
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        }
+      ]
+    },
+    {
+      "id": 32332,
+      "version": "2024061200",
+      "release": "2.1",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/32332/tool_vault_moodle44_2024061200.zip",
+      "downloadmd5": "548e9842946acd7c73ae0f01538a3d8f",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v2.1",
+      "timecreated": 1718230593,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        },
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        }
+      ]
+    },
+    {
+      "id": 32854,
+      "version": "2024081900",
+      "release": "2.2",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/32854/tool_vault_moodle44_2024081900.zip",
+      "downloadmd5": "f351060ca3d24cfc4afbd46b2ae7c7fd",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v2.2",
+      "timecreated": 1724090937,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        },
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        }
+      ]
+    },
+    {
+      "id": 33192,
+      "version": "2024092200",
+      "release": "2.3",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/33192/tool_vault_moodle44_2024092200.zip",
+      "downloadmd5": "c837d2d3e119df59fac492ae2bf827d6",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v2.3",
+      "timecreated": 1727037562,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        },
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        }
+      ]
+    },
+    {
+      "id": 33216,
+      "version": "2024092400",
+      "release": "2.4",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/33216/tool_vault_moodle44_2024092400.zip",
+      "downloadmd5": "a8f8745dae4e69bbb7213f906e9dd447",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v2.4",
+      "timecreated": 1727187786,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        },
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        }
+      ]
+    },
+    {
+      "id": 33306,
+      "version": "2024100600",
+      "release": "2.5",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/33306/tool_vault_moodle45_2024100600.zip",
+      "downloadmd5": "ee460115b632bf591b20face4065a945",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v2.5",
+      "timecreated": 1728248137,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        },
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        },
+        {
+          "version": 2024100700,
+          "release": "4.5"
+        }
+      ]
+    },
+    {
+      "id": 33450,
+      "version": "2024101300",
+      "release": "2.6",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/33450/tool_vault_moodle45_2024101300.zip",
+      "downloadmd5": "64b13b3627d4aeb2091a00414ac17978",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v2.6",
+      "timecreated": 1728851782,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        },
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        },
+        {
+          "version": 2024100700,
+          "release": "4.5"
+        }
+      ]
+    },
+    {
+      "id": 33528,
+      "version": "2024101800",
+      "release": "2.7",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/33528/tool_vault_moodle45_2024101800.zip",
+      "downloadmd5": "e310a45d4dcb89fd88793a53eaa6e9af",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v2.7",
+      "timecreated": 1729282817,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        },
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        },
+        {
+          "version": 2024100700,
+          "release": "4.5"
+        }
+      ]
+    },
+    {
+      "id": 33917,
+      "version": "2024111700",
+      "release": "2.8",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/33917/tool_vault_moodle45_2024111700.zip",
+      "downloadmd5": "7f70f1856e7bf3c0e16714c8dcf4f777",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v2.8",
+      "timecreated": 1731885441,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
+        {
+          "version": 2023041400,
+          "release": "4.2"
+        },
+        {
+          "version": 2023092300,
+          "release": "4.3"
+        },
+        {
+          "version": 2024041200,
+          "release": "4.4"
+        },
+        {
+          "version": 2024100700,
+          "release": "4.5"
+        }
+      ]
+    },
+    {
+      "id": 33919,
+      "version": "2024111701",
+      "release": "2.9",
+      "maturity": 200,
+      "downloadurl": "https://moodle.org/plugins/download.php/33919/tool_vault_moodle45_2024111701.zip",
+      "downloadmd5": "36a933db9bb45c3254d2acf50ec94e7c",
+      "vcssystem": "git",
+      "vcssystemother": null,
+      "vcsrepositoryurl": "https://github.com/lmscloud-io/moodle-tool_vault",
+      "vcsbranch": null,
+      "vcstag": "v2.9",
+      "timecreated": 1731887395,
+      "supportedmoodles": [
+        {
+          "version": 2020060700,
+          "release": "3.9"
+        },
+        {
+          "version": 2020102800,
+          "release": "3.10"
+        },
+        {
+          "version": 2021050700,
+          "release": "3.11"
+        },
+        {
+          "version": 2022030300,
+          "release": "4.0"
+        },
+        {
+          "version": 2022111500,
+          "release": "4.1"
+        },
         {
           "version": 2023041400,
           "release": "4.2"
