@@ -16,6 +16,11 @@ info SCRIPT_DIR: "$SCRIPT_DIR"
 
 [ $EUID -eq 0 ] && echo error "This script must run as normal user" && exit 1 
 
+# Verify pre requis
+
+verif_pre_requis
+[ $? -eq 0 ] || exit 1
+
 [ -d "$PROJECTS_PATH" ] || create_env 
 # restore last project                                          
 . save.var

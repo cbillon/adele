@@ -10,7 +10,7 @@ Un fichier de configuration décrit l'état souhaité de votre projet:
 
 ```bash
   moodle:
-    version: 4.4+
+    version: 4.5+
 
   plugins:
     moodle-report_benchmark:
@@ -49,8 +49,24 @@ Cette même base de code sera déployée dans différents environnements.
 
 l' outil est un script bash qui fonctionne dans un environnement Linux avec les pre requis suivants:
 - installation de git pour récupérer les sources de Moodle
+```
+  sudo apt install git
+
+```
+
 - installation du package jq pour lire les fichiers au format json
+```
+  sudo apt install yq
+
+```
+
 - installation [yq](https://github.com/mikefarah/yq/#install) pour lire le fichier de configuration au format yaml
+  pour sous unbuntu/debian pour installer la derniere version
+  ```
+    sudo wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O /usr/bin/yq &&\
+    sudo chmod +x /usr/bin/yq
+
+  ```
 
 ## Pour démarrer:
 
