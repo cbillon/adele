@@ -82,20 +82,10 @@ le script contient un projet de démonstration : demo
 Lancer la mise à jour du projet
 L'outil enchaine les traitements suivants:
 - création d'un depot local de Moodle
-- créatio d'un dépot local des plugins à installer
+- création d'un dépot local des plugins à installer
 - construction de la base de code
 
-## Pour aller plus loin
 
-Une FAQ revient en détail sur les points suivants:
- 
-- architecture
-- les fonctionnalités de l'outil 
-- les pre requis
-- la gestion des version de Moodle 
-- utilisation de git avec Moodle
-- installation des plugins
-- gestion des versions des plugins 
 
 
 
