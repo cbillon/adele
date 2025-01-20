@@ -3,9 +3,9 @@
 
 ## Objectif
 
-Outil d'administration pour déployer les plugins de Moodle avec git (sans utiliser les git sub modules). 
-L'utilisation de git pour gerer les sources de Moodle et des plugins permet de conserver un historique des mises à jour.
+Outil d'administration pour déployer les plugins de Moodle avec git (sans utiliser les commandes git sub modules). 
 Il s'agit de gérer une base de code construite à partir d'une version de Moodle et d'y integrer une liste de plugins.
+L'utilisation de git pour gerer les sources de Moodle et des plugins permet de conserver un historique des mises à jour.
 Un fichier de configuration décrit l'état souhaité de votre projet: 
 
 ```bash
